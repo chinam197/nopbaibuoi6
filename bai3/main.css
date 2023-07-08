@@ -1,0 +1,190 @@
+@font-face {
+    font-family:nunito ;
+    src: url(./font/Nunito-VariableFont_wght.ttf);
+}
+*{
+    font-family:nunito ;
+    text-decoration: none;
+}
+
+.back-ground {
+    background-image: url(./background/background-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+     background-position-y: 100%;
+     position: relative;
+   
+
+}
+.container-form {
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-cocial {
+    background-color: #ff574d;
+    width: 300px;
+    height: 400px;
+    color: white;
+   text-align: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+   
+}
+.just-log {
+    font-size: 30px; 
+    display: flex;
+   text-align: center;
+   width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  margin-top: 60px;
+}
+
+.logo-jl {
+   width:35px;
+   height: 35px;
+   border-radius: 6px;
+   text-align: center;
+    background-color:white;
+    color: #ff574d;
+    margin: 0;
+    padding: 0;
+    margin-right: 5px;
+}
+.paragaph {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.read-more {
+    text-decoration: none;
+    color: #ff574d;
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 4px;
+    
+}
+.logo > i{
+    margin-top: 30px;
+   display: inline-block;
+   background-color: #d5473f;
+   text-align: center;
+   align-items: center;
+   padding: 10px;
+}
+
+/* form input */
+.form-login {
+    width: 400px;
+    height:400px;
+    background-color:white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  
+}
+
+
+/* style cho h1 */
+.form-login > h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 40px;
+}
+.form-login > h1 {
+    color: #272323;
+}
+.form-login >h1 > strong {
+color:#ff574d ;
+}
+.high-light {
+    position: relative;
+    
+}
+.high-light::before {
+content: "";
+width:100%;
+height: 1px;
+bottom: 1px;
+background-color: #ff574d;
+position: absolute;
+transform: translateY(10px);
+}
+
+/* style input */
+
+.input-info {
+    text-align: center;
+  
+}
+.input-info > input{
+width: 320px;
+height: 30px;
+border:none;
+text-indent: 10px;
+box-shadow: 0 0 1px;
+}
+.input-info >input[type="email"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-submid {
+    width: 324px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.form-submid > input[type="checkbox"] {
+width: 17px;
+height: 17px;
+}
+.form-submid > span {
+    padding-left: 7px;
+    font-size: 15px;
+    position: relative;
+    bottom: 2px;
+    color: #717171;
+    font-weight: 600;
+}
+.forgot-password {
+    position: relative;
+    left: 78px;
+    font-size: 15px;
+    color: #717171;
+    bottom: 2px;
+    font-weight: 600;
+}
+.button-login {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.button-login > button{
+   width: 324px;
+   height: 32px;
+   background-color: #ff574d;
+   color: white;
+   border: none;
+  
+
+}
+.not-account {
+    color: #717171;
+    font-size: 15px;
+    position: relative;
+    left: 25px;
+    font-weight: 600;
+}
+.register {
+    color: #717171;
+    font-size : 15px;
+    position: relative;
+    left: 30px;
+    font-weight: 600;
+}
+
+

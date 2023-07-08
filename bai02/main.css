@@ -1,0 +1,111 @@
+@font-face {
+    font-family: roboto;
+    src: url(./font/Roboto-Regular.ttf);
+}
+* {
+    font-family: roboto;
+}
+.category {
+    background-color:  #ebf5fe;
+    height: 100vh;
+    background-size: cover;
+    
+}
+.container > div[class^="size-"] {
+    width: 500px;
+    height: 253px;
+    background-color: #ffffff;
+    min-height: auto;
+    box-shadow: 0 0 1px ;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 3% ;
+    border:3px solid transparent;
+   
+   
+}
+.container {
+   padding-top: 3%;
+   width: 960px;
+   max-width: 1100px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.background-icon {
+ width: 70px;
+ height: 70px;
+ border-radius: 99px;
+ color: white;
+ font-size: 30px;
+ text-align: center;
+ background-color: aqua;
+ margin-left: 18px;
+ margin-top: 22px;
+}
+/* chỉnh màu 6 icon */
+.color-unique {
+    background-color: #e3775c;
+
+}
+.color-theme {
+    background-color: #50a59f;
+}
+.color-digital {
+    background-color: #f2b947;
+}
+.color-website {
+    background-color: #668bef;
+}
+.color-responsive {
+    background-color: #a54ce1;
+}
+.color-quick {
+    background-color: #85b248;
+}
+
+
+/*  */
+.title {
+    display: inline-block;
+
+}
+span.line-wrapping {
+    display: block;
+}
+i {
+    margin-top: 50%;
+    transform: translateY(-50%);
+}
+.title {
+    position: relative;
+    left: 35%;
+    bottom: 32%;
+}
+
+.about {
+    width: 90%;
+  position: relative;
+  bottom: 75px;
+  left: 18px;
+}
+
+
+.about > a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #3333ff;
+    font-weight:bold;
+}
+/*  hieeu ung hover */
+.container > div[class^="size-"]:hover {
+ 
+    border-color: red;
+}
+
+
+
+
